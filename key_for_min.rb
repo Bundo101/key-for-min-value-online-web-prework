@@ -3,8 +3,8 @@
 
 def key_for_min_value(name_hash)
   if name_hash.length > 0
-    min_val = 1000000
-    min_key = ""
+    min_val = nil
+    min_key = nil
     name_hash.each do |k, v|
       if v < min_val
         min_val = v
